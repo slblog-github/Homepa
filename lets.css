@@ -1,0 +1,79 @@
+* {
+    -webkit-animation-name: boingInUp;
+    animation-name: boingInUp; 
+}
+body {
+    background-image: url(https://bing.ioliu.cn/v1/blur?w=1920,h=1080);
+    margin: 0;
+}
+#page {
+    background-color: #21212187;
+    -webkit-animation-name: boingInUp;
+    animation-name: boingInUp;
+}
+#from {
+    color:#eff;
+}
+.fontf {
+    font-family: 'Potta One', cursive;
+    color: #eff;
+    font-size:25px;
+}
+.avatar {
+    width: 8rem;
+    height: 8rem;
+    margin: -0.5rem 0 0 -4rem;
+    transform: rotate(360deg);
+    background: url(https://cdn.jsdelivr.net/gh/slblog-github/SRCDN/pic/old.logo.png) no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    transition: all 0.3s;
+    animation: light 2s ease-in-out infinite alternate;
+    text-align: -webkit-center;
+    margin: 0 auto
+}
+.avatar:active {
+    -webkit-animation-name: tinRightOut;
+    animation-name: tinRightOut;
+    animation: tinRightOut 2s ease-in-out infinite alternate;
+    -webkit-animation: tinRightOut 2s ease-in-out infinite alternate;
+}
+@keyframes light {
+    from {
+       box-shadow:0px 0px 4px rgb(0, 255, 157);
+    }
+    to {
+      box-shadow:0px 0px 16px rgb(0, 255, 157);
+    }
+}
+.icon {
+    width: 3em; height: 3em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+ @font-face {
+    font-family: 'iconfont';  /* project id 1900305 */
+    src: url('https://at.alicdn.com/t/font_1900305_g9slv4e12hk.eot');
+    src: url('https://at.alicdn.com/t/font_1900305_g9slv4e12hk.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_1900305_g9slv4e12hk.woff2') format('woff2'),
+    url('https://at.alicdn.com/t/font_1900305_g9slv4e12hk.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_1900305_g9slv4e12hk.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_1900305_g9slv4e12hk.svg#iconfont') format('svg');
+  }
+.LancherButton {
+        background: linear-gradient(to right,#2f80ed,#56ccf2);
+        height: 4em;
+        width: 100%;
+        border-radius: 8px;
+        display: inline-block;
+        text-align: center;
+        line-height: 4em;
+        font-weight: 700;
+        font-size: .9rem;
+        color: #eff;
+        transition: all .4s cubic-bezier(.39,.575,.565,1);
+        width: 10rem;
+}
+a:visited{text-decoration: none;}
+a{text-decoration: none;}
