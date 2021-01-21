@@ -61,8 +61,19 @@ body {
     url('https://at.alicdn.com/t/font_1900305_g9slv4e12hk.ttf') format('truetype'),
     url('https://at.alicdn.com/t/font_1900305_g9slv4e12hk.svg#iconfont') format('svg');
   }
-.bgmm {
-    background-image: url(https://cdn.jsdelivr.net/gh/Tsuk1ko/moe-project/bilibili/bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+.LancherButton {
+        background: linear-gradient(to right,#2f80ed,#56ccf2);
+        height: 4em;
+        width: 100%;
+        border-radius: 8px;
+        display: inline-block;
+        text-align: center;
+        line-height: 4em;
+        font-weight: 700;
+        font-size: .9rem;
+        color: #eff;
+        transition: all .4s cubic-bezier(.39,.575,.565,1);
+        width: 10rem;
 }
+a:visited{text-decoration: none;}
+a{text-decoration: none;}
