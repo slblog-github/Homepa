@@ -1,0 +1,1 @@
+"use strict";console.clear(),console.log("本页面基于小康的开源项目魔改,任何People不得擅自偷、剽、抢..^%#$%^&%$#w%^"),console.warn("本页面基于小康的开源项目魔改,任何People不得擅自偷、剽、抢..^%#$%^&%$#w%^");
